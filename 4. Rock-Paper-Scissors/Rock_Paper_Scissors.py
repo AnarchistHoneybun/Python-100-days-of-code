@@ -1,5 +1,6 @@
 import random
 import time
+import sys
 
 random.seed(time.time())
 
@@ -39,6 +40,8 @@ elif player==1:
   print(paper)
 elif player==2:
   print(scissors)
+else:
+  sys.exit("You chose an invalid move ヽ(ಠ_ಠ)ノ")
 
 print("cpu chose->")
 cpu=random.randint(0,2)
@@ -49,6 +52,7 @@ elif cpu==1:
   print(paper)
 elif cpu==2:
   print(scissors)
+
 
 if player==0 and cpu==0:
   print("IT'S A DRAW")
