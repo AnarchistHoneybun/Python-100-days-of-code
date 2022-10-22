@@ -1,0 +1,4 @@
+This one's to log day 13. No project for this day
+but I did some basic debugging. 
+Debuggers-> thonny, python-tutor
+stack overflow, rubber duck, etc etc
